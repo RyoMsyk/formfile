@@ -1,0 +1,6 @@
+
+<%= form_for @article, :url => { :controllor => :controllers, :action => :create} do |form| %>
+<%= render "form", form: form %>
+    <div><%= form.submit %></div>
+<% end %>
+
